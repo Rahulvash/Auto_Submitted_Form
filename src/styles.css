@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.header{
+flex-grow: 1
+}
+
+
+.footer, .header{
+  width: 100%;
+  padding: 10px;
+  background: black;
+}
+.header a, .footer a{
+  color: antiquewhite;
+}
+a.link{
+  color: crimson;
+  cursor: pointer;
+}
+.footer {
+  position: fixed;
+  bottom:0;
+  left: 0;
+}
+
+/*.footer{*/
+  /*justify-content: center;*/
+/*}*/
+
